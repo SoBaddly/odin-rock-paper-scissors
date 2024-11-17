@@ -11,7 +11,7 @@ function getComputerChoice() {
 }
 
 function getHumanChoice() {
-  let humanChoice = prompt().toLowerCase();
+  let humanChoice = prompt("Choose your move (Rock, Paper, Scissors)").toLowerCase();
   humanChoice === "rock" ||
   humanChoice === "paper" ||
   humanChoice === "scissors"
